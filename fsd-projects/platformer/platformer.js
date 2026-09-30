@@ -1,3 +1,5 @@
+const { createContext } = require("react");
+
 $(function () {
   // initialize canvas and context when able to
   canvas = document.getElementById("canvas");
@@ -46,9 +48,11 @@ $(function () {
      createPlatform(700, 200, 35, 25, "navy")
 
     // TODO 3 - Create Collectables
+    //createCollectable("Name", xPos, yPos, GravitNumber, BounceNumber, minX, maxX, speed)
+//createCollectable("Name", xPos, yPos, GravitNumber, BounceNumber)
+//createCollectable("Name", xPos, yPos)
 
-
-
+     
     
     // TODO 4 - Create Cannons
 
