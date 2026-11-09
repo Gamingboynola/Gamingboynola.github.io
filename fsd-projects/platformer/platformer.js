@@ -1,4 +1,3 @@
-const { createContext } = require("react");
 
 $(function () {
   // initialize canvas and context when able to
@@ -47,17 +46,39 @@ $(function () {
 
      createPlatform(700, 200, 35, 25, "navy")
 
+     createPlatform(850, 300, 70, 25, 
+    "navy")
+
+     createPlatform(1000, 350, 75, 25,"Navy")
+
+
+     createPlatform(550, 140, 75, 25, "black")
+
+     createPlatform(850, 300, 70, 500, 
+    "navy")
+
     // TODO 3 - Create Collectables
     //createCollectable("Name", xPos, yPos, GravitNumber, BounceNumber, minX, maxX, speed)
 //createCollectable("Name", xPos, yPos, GravitNumber, BounceNumber)
 //createCollectable("Name", xPos, yPos)
 
-     
+           createCollectable("database", 865, 240)
+
+           createCollectable("diamond",1015, 290)
+
+           createCollectable("kennedi", 565, 90)
     
     // TODO 4 - Create Cannons
 
+      //createCannon("top bottom left right", position, timeBetweenShots, BulletWidth, BulletHeight, minCannonPos, maxCannonPos, cannonSpeed)
 
-    
+      //createCannon("top bottom left right", position, timeBetweenShots, BulletWidth, BulletHeight)
+
+      //createCannon("top bottom left right", position, timeBetweenShots)
+
+    createCannon("top", 800, 1, 5, 5, 800, 1300, 2)
+    createCannon("bottom", 800, 1, 5, 5, 800, 1300, 2)
+    createCannon("left", 400, 5000)
     
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
