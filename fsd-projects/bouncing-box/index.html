@@ -101,6 +101,7 @@ var speed = 10;
          * - move the box to the left side of the screen.
          */
         function handleBoxClick() {
+          positionX = 0;
           points = points + 1;
           changeBoxText(points);
           speed = 3 * points + 10;
